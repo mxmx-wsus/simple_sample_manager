@@ -1,16 +1,13 @@
 # simple_sample_manager
 
-A new Flutter project.
+SIMPLE_SAMPLE_MANAGER
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+fvm version : 2.4.1
 
-A few resources to get you started if this is your first Flutter project:
+flutter version : 3.7.6
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+xcode version : 14.2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+cocoapods version : 1.12.0
