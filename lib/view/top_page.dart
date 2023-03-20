@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:simple_sample_manager/constant/separate_line.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -25,6 +26,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           backgroundColor: Colors.black,
         ),
-        body: const Text('SIMPLE SAMPLE MANAGER'));
+        body: Center(
+            child: Column(children: [
+          CustomPaint(
+            painter: SeparateLine(),
+          ),
+        ])));
   }
 }
