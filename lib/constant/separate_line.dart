@@ -8,20 +8,20 @@ class SeparateLine extends CustomPainter {
     // 正円の描写
     p.style = PaintingStyle.fill;
     p.color = Color(0xff00C2FF);
-    Offset ctr = Offset(-150.0, 5.0);
+    Offset ctr = const Offset(-150.0, 5.0);
     canvas.drawCircle(ctr, 3.0, p);
 
     // 正円の描写
     p.style = PaintingStyle.fill;
     p.color = Color(0xff00C2FF);
-    Offset ctr2 = Offset(150.0, 5.0);
+    Offset ctr2 = const Offset(150.0, 5.0);
     canvas.drawCircle(ctr2, 3.0, p);
 
     // 直線
     p.style = PaintingStyle.stroke;
     p.strokeWidth = 1.5;
     p.color = Color(0xff00C2FF);
-    canvas.drawLine(Offset(-150, 5), Offset(150, 5), p);
+    canvas.drawLine(const Offset(-150, 5), const Offset(150, 5), p);
   }
 
   @override

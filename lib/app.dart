@@ -1,6 +1,7 @@
 // Flutter imports:
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
+import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/view/top_page.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,10 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+          primaryColor: const Color(0xff00C2FF),
           textTheme: GoogleFonts.juraTextTheme(
-        Theme.of(context).textTheme,
-      )),
-      home: const MyHomePage(title: 'SIMPLE SAMPLE MANAGER'),
+            Theme.of(context).textTheme,
+          )),
+      home: const MyHomePage(
+        title: ConstantStrings.appTitle,
+      ),
     );
   }
 }
