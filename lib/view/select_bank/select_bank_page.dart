@@ -1,12 +1,8 @@
-// Dart imports:
-import 'dart:ui';
-
 // Flutter imports:
 import 'package:flutter/material.dart';
 
 // Project imports:
 import 'package:simple_sample_manager/constant/separate_line.dart';
-import 'package:simple_sample_manager/constant/space_box.dart';
 import 'package:simple_sample_manager/view/header_area_view.dart';
 import 'package:simple_sample_manager/view/select_bank/bank_button_area_view.dart';
 import 'package:simple_sample_manager/view/select_bank/footer_area_view.dart';
