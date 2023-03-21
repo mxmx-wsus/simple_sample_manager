@@ -3,6 +3,7 @@ import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/constant/separate_line.dart';
 import 'package:simple_sample_manager/constant/space_box.dart';
 import 'package:simple_sample_manager/view/bank_button_area_view.dart';
+import 'package:simple_sample_manager/view/footer_area_view.dart';
 import 'package:simple_sample_manager/view/main_display_view.dart';
 import 'package:simple_sample_manager/view/pad_button_area_view.dart';
 
@@ -41,6 +42,10 @@ class _MyHomePageState extends State<MyHomePage> {
             painter: SeparateLine(),
           ),
           const SpaceBox(),
+          CustomPaint(
+            painter: SeparateLine(),
+          ),
+          const SpaceBox(),
           const BankButtonArea(),
           CustomPaint(
             painter: SeparateLine(),
@@ -50,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
           CustomPaint(
             painter: SeparateLine(),
           ),
+          const FooterArea(),
         ])));
   }
 }

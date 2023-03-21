@@ -8,7 +8,7 @@ class BankButtonArea extends StatelessWidget {
       height: 200,
       width: 350,
       child: AspectRatio(
-        aspectRatio: 1 / 0.5,
+        aspectRatio: 1 / 0.3,
         child: GridView.count(
           physics: const NeverScrollableScrollPhysics(),
           crossAxisCount: 5,
@@ -34,7 +34,6 @@ class BankButtonArea extends StatelessWidget {
   }
 }
 
-// キーボタン
 class BankButton extends StatelessWidget {
   final String _keyWord;
   const BankButton(
