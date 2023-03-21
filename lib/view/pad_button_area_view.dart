@@ -56,7 +56,19 @@ class PadButtonArea extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const EditButton(),
-              Image.asset('images/transparentBar.png'),
+              SizedBox(
+                height: 35,
+                width: 250,
+                child: Container(
+                  decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [Colors.black, Colors.blue],
+                      begin: Alignment.centerLeft,
+                      end: Alignment.centerRight,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

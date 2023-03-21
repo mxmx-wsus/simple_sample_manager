@@ -19,6 +19,7 @@ class EditButton extends StatelessWidget {
       ),
       onPressed: () {
         //ボタンが押されたら「SelectBankPage」へ遷移する
+
       },
       child: const Text(
         'E D I T',
