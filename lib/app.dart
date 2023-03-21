@@ -1,6 +1,10 @@
 // Flutter imports:
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:google_fonts/google_fonts.dart';
+
+// Project imports:
 import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/view/top_page_view.dart';
 

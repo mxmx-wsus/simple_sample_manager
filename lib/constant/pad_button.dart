@@ -1,8 +1,10 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class MenuButton extends StatelessWidget {
-  const MenuButton({
+class PadButton extends StatelessWidget {
+  final String _keyWord;
+  const PadButton(
+    this._keyWord, {
     Key? key,
   }) : super(key: key);
 
@@ -18,11 +20,11 @@ class MenuButton extends StatelessWidget {
         fixedSize: Size.fromHeight(20),
       ),
       onPressed: () {
-        //ボタンが押されたら「SelectBankPage」へ遷移する
+        //ボタンが押されたらメインディスプレイにサンプル情報を表示させる。
       },
-      child: const Text(
-        'M E N U',
-        style: TextStyle(fontSize: 20.0),
+      child: Text(
+        _keyWord,
+        style: const TextStyle(fontSize: 20.0),
       ),
     );
   }
