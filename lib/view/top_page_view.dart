@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           CustomPaint(
             painter: SeparateLine(),
           ),
+          const SpaceBox(),
           const FooterArea(),
         ])));
   }
