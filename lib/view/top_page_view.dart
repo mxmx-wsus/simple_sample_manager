@@ -10,16 +10,16 @@ import 'package:simple_sample_manager/view/footer_area_view.dart';
 import 'package:simple_sample_manager/view/main_display_view.dart';
 import 'package:simple_sample_manager/view/pad_button_area_view.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class TopPageView extends StatefulWidget {
+  const TopPageView({super.key, required this.title});
 
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<TopPageView> createState() => _TopPageViewState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _TopPageViewState extends State<TopPageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

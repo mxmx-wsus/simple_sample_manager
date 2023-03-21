@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.juraTextTheme(
             Theme.of(context).textTheme,
           )),
-      home: const MyHomePage(
+      home: const TopPageView(
         title: ConstantStrings.appTitle,
       ),
     );
