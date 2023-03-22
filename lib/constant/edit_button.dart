@@ -1,6 +1,9 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
+import 'package:simple_sample_manager/view/select_bank/select_bank_page.dart';
+
 class EditButton extends StatelessWidget {
   const EditButton({
     Key? key,
@@ -19,7 +22,10 @@ class EditButton extends StatelessWidget {
       ),
       onPressed: () {
         //ボタンが押されたら「SelectBankPage」へ遷移する
-
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const SelectBankPage()),
+        );
       },
       child: const Text(
         'E D I T',

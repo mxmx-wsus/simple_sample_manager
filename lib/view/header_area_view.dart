@@ -1,5 +1,7 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+
+// Project imports:
 import 'package:simple_sample_manager/constant/separate_line.dart';
 
 // Project imports:
