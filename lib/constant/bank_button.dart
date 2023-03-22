@@ -1,6 +1,9 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
+import 'package:simple_sample_manager/view/select_pad/select_pad_page.dart';
+
 class BankButton extends StatelessWidget {
   final String _keyWord;
   const BankButton(
@@ -21,6 +24,10 @@ class BankButton extends StatelessWidget {
       ),
       onPressed: () {
         //ボタンが押されたら「textfield.dart」のDisplauControllerに「_keyWord」を追加する。
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const SelectPadPage()),
+        );
       },
       child: Text(
         _keyWord,

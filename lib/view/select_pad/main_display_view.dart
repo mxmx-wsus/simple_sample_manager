@@ -8,7 +8,7 @@ class MainDisplay extends StatefulWidget {
 }
 
 class DisplayController extends State<MainDisplay> {
-  final String _mainDisplayText = 'Select the BANK you want to edit.';
+  final String _mainDisplayText = 'Select the PAD you want to edit.';
 
   @override
   Widget build(BuildContext context) {
