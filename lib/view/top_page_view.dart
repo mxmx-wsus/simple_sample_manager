@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/component/separate_line.dart';
 import 'package:simple_sample_manager/component/space_box.dart';
+import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/view_model/top_bank_button_view_model.dart';
 import 'package:simple_sample_manager/view_model/top_footer_view_model.dart';
 import 'package:simple_sample_manager/view_model/top_header_view_model.dart';

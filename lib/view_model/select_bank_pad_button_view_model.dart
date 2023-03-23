@@ -1,8 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:simple_sample_manager/component/gradation_box.dart';
 
 // Project imports:
+import 'package:simple_sample_manager/component/gradation_box.dart';
 import 'package:simple_sample_manager/component/page_back_button.dart';
 
 // Project imports:
