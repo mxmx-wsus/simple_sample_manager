@@ -2,8 +2,9 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/edit_button.dart';
-import 'package:simple_sample_manager/constant/pad_button.dart';
+import 'package:simple_sample_manager/component/edit_button.dart';
+import 'package:simple_sample_manager/component/gradation_box.dart';
+import 'package:simple_sample_manager/component/pad_button.dart';
 
 class PadButtonArea extends StatelessWidget {
   const PadButtonArea({Key? key}) : super(key: key);
@@ -56,19 +57,7 @@ class PadButtonArea extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const EditButton(),
-              SizedBox(
-                height: 35,
-                width: 250,
-                child: Container(
-                  decoration: const BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [Colors.black, Colors.blue],
-                      begin: Alignment.centerLeft,
-                      end: Alignment.centerRight,
-                    ),
-                  ),
-                ),
-              ),
+              GradationBox(),
             ],
           ),
         ),

@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/separate_line.dart';
+import 'package:simple_sample_manager/component/separate_line.dart';
 
 // Project imports:
 

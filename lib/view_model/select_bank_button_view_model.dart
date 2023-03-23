@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/bank_button.dart';
+import 'package:simple_sample_manager/component/bank_button.dart';
 
-class BankButtonArea extends StatelessWidget {
-  const BankButtonArea({Key? key}) : super(key: key);
+class SelectBankButtonViewModel extends StatelessWidget {
+  const SelectBankButtonViewModel({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(

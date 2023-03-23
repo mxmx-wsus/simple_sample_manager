@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 
 // Project imports:
 import 'package:simple_sample_manager/constant/constant_strings.dart';
-import 'package:simple_sample_manager/constant/separate_line.dart';
-import 'package:simple_sample_manager/constant/space_box.dart';
-import 'package:simple_sample_manager/view/bank_button_area_view.dart';
-import 'package:simple_sample_manager/view/footer_area_view.dart';
-import 'package:simple_sample_manager/view/header_area_view.dart';
-import 'package:simple_sample_manager/view/main_display_view.dart';
-import 'package:simple_sample_manager/view/pad_button_area_view.dart';
+import 'package:simple_sample_manager/component/separate_line.dart';
+import 'package:simple_sample_manager/component/space_box.dart';
+import 'package:simple_sample_manager/view_model/top_bank_button_view_model.dart';
+import 'package:simple_sample_manager/view_model/top_footer_view_model.dart';
+import 'package:simple_sample_manager/view_model/top_header_view_model.dart';
+import 'package:simple_sample_manager/view_model/top_main_display_view_model.dart';
+import 'package:simple_sample_manager/view_model/top_pad_button_view_model.dart';
 
 class TopPageView extends StatefulWidget {
   const TopPageView({super.key, required this.title});
@@ -28,7 +28,7 @@ class _TopPageViewState extends State<TopPageView> {
         body: SafeArea(
           child: Center(
               child: Column(children: [
-                const HeaderArea(),
+            const HeaderArea(),
             const MainDisplay(),
             CustomPaint(
               painter: SeparateLine(),
