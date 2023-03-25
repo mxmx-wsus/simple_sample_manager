@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 
 // Project imports:
 import 'package:simple_sample_manager/component/separate_line.dart';
-import 'package:simple_sample_manager/view_model/select_bank_button_view_model.dart';
-import 'package:simple_sample_manager/view_model/select_bank_display_view_model.dart';
-import 'package:simple_sample_manager/view_model/select_bank_footer_view_model.dart';
-import 'package:simple_sample_manager/view_model/select_bank_pad_button_view_model.dart';
-import 'package:simple_sample_manager/view_model/top_header_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_bank/select_bank_button_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_bank/select_bank_display_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_bank/select_bank_footer_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_bank/select_bank_pad_button_view_model.dart';
+import 'package:simple_sample_manager/view_model/top/top_header_view_model.dart';
 
 class SelectBankPage extends StatelessWidget {
   const SelectBankPage({Key? key}) : super(key: key);
