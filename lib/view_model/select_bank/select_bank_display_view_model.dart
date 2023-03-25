@@ -1,13 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class SelectBankMainDisplayViewModel extends StatefulWidget {
-  const SelectBankMainDisplayViewModel({Key? key}) : super(key: key);
-  @override
-  DisplayController createState() => DisplayController();
-}
+// Project imports:
+import 'package:simple_sample_manager/view_model/top/top_main_display_view_model.dart';
 
-class DisplayController extends State<MainDisplay> {
+class SelectBankMainDisplayViewModel extends StatelessWidget {
+  const SelectBankMainDisplayViewModel({Key? key}) : super(key: key);
+
   final String _mainDisplayText = 'Select the BANK you want to edit.';
 
   @override

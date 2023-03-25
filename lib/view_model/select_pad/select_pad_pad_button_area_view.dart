@@ -2,9 +2,11 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/edit_button.dart';
-import 'package:simple_sample_manager/constant/pad_button.dart';
-import 'package:simple_sample_manager/constant/page_back_button.dart';
+import 'package:simple_sample_manager/component/pad_button.dart';
+import 'package:simple_sample_manager/component/page_back_button.dart';
+
+// Project imports:
+
 
 class PadButtonArea extends StatelessWidget {
   const PadButtonArea({Key? key}) : super(key: key);

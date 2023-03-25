@@ -2,11 +2,15 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/separate_line.dart';
-import 'package:simple_sample_manager/view/header_area_view.dart';
-import 'package:simple_sample_manager/view/select_bank/footer_area_view.dart';
-import 'package:simple_sample_manager/view/select_pad/main_display_view.dart';
-import 'package:simple_sample_manager/view/select_pad/pad_button_area_view.dart';
+import 'package:simple_sample_manager/component/separate_line.dart';
+import 'package:simple_sample_manager/view_model/select_bank/select_bank_footer_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_pad/select_pad_main_display_view_model.dart';
+import 'package:simple_sample_manager/view_model/select_pad/select_pad_pad_button_area_view.dart';
+import 'package:simple_sample_manager/view_model/top/top_header_view_model.dart';
+
+// Project imports:
+
+
 
 class SelectPadPage extends StatelessWidget {
   const SelectPadPage({Key? key}) : super(key: key);
@@ -27,7 +31,7 @@ class SelectPadPage extends StatelessWidget {
                 CustomPaint(
                   painter: SeparateLine(),
                 ),
-                const FooterArea(),
+                const SelectBankFooterViewModel(),
               ])),
         ));
   }

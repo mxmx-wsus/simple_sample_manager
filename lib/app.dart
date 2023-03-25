@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/constant/constant_strings.dart';
 import 'package:simple_sample_manager/view/top_page_view.dart';
 
 class MyApp extends StatelessWidget {
@@ -20,9 +19,7 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.juraTextTheme(
             Theme.of(context).textTheme,
           )),
-      home: const TopPageView(
-        title: ConstantStrings.appTitle,
-      ),
+      home: const TopPageView(),
     );
   }
 }

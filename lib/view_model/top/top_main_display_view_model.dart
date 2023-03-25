@@ -1,19 +1,15 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class MainDisplay extends StatefulWidget {
+class MainDisplay extends StatelessWidget {
   const MainDisplay({Key? key}) : super(key: key);
-  @override
-  DisplayController createState() => DisplayController();
-}
 
-class DisplayController extends State<MainDisplay> {
-  String _samplePositionLabel = 'A - 1';
-  String _songName = 'VHS.Chords';
-  String _artistName = 'Submerse';
-  String _songLengthLabel = 'Length : ';
-  String _songBpmLabel = 'BPM : ';
-  String _songKeyLabel = 'Key : ';
+  final String _samplePositionLabel = 'A - 1';
+  final String _songName = 'VHS.Chords';
+  final String _artistName = 'Submerse';
+  final String _songLengthLabel = 'Length : ';
+  final String _songBpmLabel = 'BPM : ';
+  final String _songKeyLabel = 'Key : ';
 
 //updateTextというボタンが押された時の関数の箱を作る
 
