@@ -1,12 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:simple_sample_manager/component/gradation_box.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/component/pad_button.dart';
 import 'package:simple_sample_manager/component/page_back_button.dart';
+import 'package:simple_sample_manager/component/select_pad_pad_button.dart';
 
 // Project imports:
-
 
 class PadButtonArea extends StatelessWidget {
   const PadButtonArea({Key? key}) : super(key: key);
@@ -52,7 +52,7 @@ class PadButtonArea extends StatelessWidget {
                   '12',
                 ].map((keyWord) {
                   return GridTile(
-                    child: PadButton(keyWord),
+                    child: SelectPadPadButton(keyWord),
                   );
                 }).toList(),
               ),
@@ -62,21 +62,9 @@ class PadButtonArea extends StatelessWidget {
             padding: const EdgeInsets.only(top: 130, right: 40, left: 40),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const PageBackButton(),
-                SizedBox(
-                  height: 35,
-                  width: 250,
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [Colors.black, Colors.blue],
-                        begin: Alignment.centerLeft,
-                        end: Alignment.centerRight,
-                      ),
-                    ),
-                  ),
-                ),
+              children: const [
+                PageBackButton(),
+                GradationBox(),
               ],
             ),
           ),
