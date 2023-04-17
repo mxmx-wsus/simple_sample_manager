@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/view/edit_page.dart';
+import 'package:simple_sample_manager/view/edit/edit_page.dart';
 
 class SelectPadPadButton extends StatelessWidget {
   final String _keyWord;

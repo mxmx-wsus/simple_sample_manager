@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/view/select_pad_page.dart';
+import 'package:simple_sample_manager/view/select_pad/select_pad_page.dart';
 
 class SelectBankBankButton extends StatelessWidget {
   final String _keyWord;

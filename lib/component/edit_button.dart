@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/view/select_bank_page.dart';
+import 'package:simple_sample_manager/view/select_bank/select_bank_page.dart';
 
 class EditButton extends StatelessWidget {
   const EditButton({

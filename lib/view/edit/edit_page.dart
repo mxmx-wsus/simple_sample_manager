@@ -24,8 +24,135 @@ class EditPage extends StatelessWidget {
             CustomPaint(
               painter: SeparateLine(),
             ),
+            Text(
+              'Edit Sample',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            Text(
+              'A - 1',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            CustomPaint(
+              painter: SeparateLine(),
+            ),
+            Text(
+              'Song Name',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            SizedBox(
+              width: 300,
+              child: TextField(
+                style: TextStyle(
+                  color: Color(0xff00C2FF),
+                ),
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color(0xff00C2FF),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Text(
+              'Artist Name',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            SizedBox(
+              width: 300,
+              child: TextField(
+                style: TextStyle(
+                  color: Color(0xff00C2FF),
+                ),
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color(0xff00C2FF),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Text(
+              'Length',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            SizedBox(
+              width: 300,
+              child: TextField(
+                style: TextStyle(
+                  color: Color(0xff00C2FF),
+                ),
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color(0xff00C2FF),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Text(
+              'BPM',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            SizedBox(
+              width: 300,
+              child: TextField(
+                style: TextStyle(
+                  color: Color(0xff00C2FF),
+                ),
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color(0xff00C2FF),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Text(
+              'Key',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Color(0xff00C2FF),
+              ),
+            ),
+            SizedBox(
+              width: 300,
+              child: TextField(
+                style: TextStyle(
+                  color: Color(0xff00C2FF),
+                ),
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Color(0xff00C2FF),
+                    ),
+                  ),
+                ),
+              ),
+            ),
             Padding(
-              padding: const EdgeInsets.only(top: 130, right: 40, left: 40),
+              padding: const EdgeInsets.only(top: 50, right: 40, left: 40),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: const [
