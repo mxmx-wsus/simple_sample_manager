@@ -24,10 +24,6 @@ class BankButton extends StatelessWidget {
       ),
       onPressed: () {
         //ボタンが押されたら「textfield.dart」のDisplauControllerに「_keyWord」を追加する。
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => const SelectPadPage()),
-        );
       },
       child: Text(
         _keyWord,
