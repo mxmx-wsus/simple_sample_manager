@@ -8,8 +8,8 @@ import 'package:simple_sample_manager/component/select_pad_pad_button.dart';
 
 // Project imports:
 
-class PadButtonArea extends StatelessWidget {
-  const PadButtonArea({Key? key}) : super(key: key);
+class SelectPadPadButtonArea extends StatelessWidget {
+  const SelectPadPadButtonArea({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(

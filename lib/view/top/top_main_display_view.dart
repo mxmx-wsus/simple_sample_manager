@@ -1,8 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class MainDisplay extends StatelessWidget {
-  const MainDisplay({Key? key}) : super(key: key);
+class TopMainDisplay extends StatelessWidget {
+  const TopMainDisplay({Key? key}) : super(key: key);
 
   final String _samplePositionLabel = 'A - 1';
   final String _songName = 'VHS.Chords';

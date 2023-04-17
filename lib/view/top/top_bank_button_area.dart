@@ -10,7 +10,7 @@ class BankButtonArea extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(
+        const Text(
           'B A N K',
           style: TextStyle(
             fontSize: 20,

@@ -1,12 +1,10 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
+class SelectBankMainDisplayView extends StatelessWidget {
+  const SelectBankMainDisplayView({Key? key}) : super(key: key);
 
-class EditMainDisplayViewModel extends StatelessWidget {
-  const EditMainDisplayViewModel({Key? key}) : super(key: key);
-
-  final String _mainDisplayText = 'Enter the sapmle information.';
+  final String _mainDisplayText = 'Select the BANK you want to edit.';
 
   @override
   Widget build(BuildContext context) {

@@ -1,13 +1,13 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class MainDisplay extends StatefulWidget {
-  const MainDisplay({Key? key}) : super(key: key);
+class SelectPadMainDisplay extends StatefulWidget {
+  const SelectPadMainDisplay({Key? key}) : super(key: key);
   @override
   DisplayController createState() => DisplayController();
 }
 
-class DisplayController extends State<MainDisplay> {
+class DisplayController extends State<SelectPadMainDisplay> {
   final String _mainDisplayText = 'Select the PAD you want to edit.';
 
   @override

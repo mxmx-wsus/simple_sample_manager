@@ -5,9 +5,9 @@ import 'package:simple_sample_manager/component/page_back_button.dart';
 
 // Project imports:
 import 'package:simple_sample_manager/component/separate_line.dart';
-import 'package:simple_sample_manager/view_model/edit/edit_display_view_model.dart';
-import 'package:simple_sample_manager/view_model/edit/edit_footer_view_model.dart';
-import 'package:simple_sample_manager/view_model/top/top_header_view_model.dart';
+import 'package:simple_sample_manager/view/edit/edit_display_view.dart';
+import 'package:simple_sample_manager/view/edit/edit_footer_area.dart';
+import 'package:simple_sample_manager/view/top/top_header_area.dart';
 
 class EditPage extends StatelessWidget {
   const EditPage({Key? key}) : super(key: key);
@@ -20,7 +20,7 @@ class EditPage extends StatelessWidget {
           child: Center(
               child: Column(children: [
             const HeaderArea(),
-            const EditMainDisplayViewModel(),
+            const EditMainDisplayView(),
             CustomPaint(
               painter: SeparateLine(),
             ),
@@ -37,7 +37,7 @@ class EditPage extends StatelessWidget {
             CustomPaint(
               painter: SeparateLine(),
             ),
-            const EditFooterViewModel(),
+            const EditFooterArea(),
           ])),
         ));
   }

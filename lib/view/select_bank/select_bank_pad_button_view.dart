@@ -7,8 +7,8 @@ import 'package:simple_sample_manager/component/page_back_button.dart';
 
 // Project imports:
 
-class SelectBankPadButtonAreaViewModel extends StatelessWidget {
-  const SelectBankPadButtonAreaViewModel({Key? key}) : super(key: key);
+class SelectBankPadButtonView extends StatelessWidget {
+  const SelectBankPadButtonView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Column(
