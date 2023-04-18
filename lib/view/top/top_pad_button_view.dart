@@ -6,13 +6,13 @@ import 'package:simple_sample_manager/component/edit_button.dart';
 import 'package:simple_sample_manager/component/gradation_box.dart';
 import 'package:simple_sample_manager/component/pad_button.dart';
 
-class PadButtonArea extends StatelessWidget {
-  const PadButtonArea({Key? key}) : super(key: key);
+class TopPadButtonArea extends StatelessWidget {
+  const TopPadButtonArea({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(
+        const Text(
           'S A M P L E',
           style: TextStyle(
             fontSize: 20,
@@ -55,8 +55,8 @@ class PadButtonArea extends StatelessWidget {
           padding: const EdgeInsets.only(right: 40, left: 40),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const EditButton(),
+            children: const [
+              EditButton(),
               GradationBox(),
             ],
           ),

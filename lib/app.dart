@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/view/top_page_view.dart';
+import 'package:simple_sample_manager/view/top/top_page_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

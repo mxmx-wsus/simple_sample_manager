@@ -1,11 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-// Project imports:
-import 'package:simple_sample_manager/view_model/top/top_main_display_view_model.dart';
-
-class SelectBankMainDisplayViewModel extends StatelessWidget {
-  const SelectBankMainDisplayViewModel({Key? key}) : super(key: key);
+class SelectBankMainDisplayView extends StatelessWidget {
+  const SelectBankMainDisplayView({Key? key}) : super(key: key);
 
   final String _mainDisplayText = 'Select the BANK you want to edit.';
 

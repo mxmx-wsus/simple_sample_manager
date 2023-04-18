@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/component/bank_button.dart';
+import 'package:simple_sample_manager/component/select_bank_bank_button.dart';
 
-class SelectBankButtonViewModel extends StatelessWidget {
-  const SelectBankButtonViewModel({Key? key}) : super(key: key);
+class SelectBankButtonView extends StatelessWidget {
+  const SelectBankButtonView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -46,7 +46,7 @@ class SelectBankButtonViewModel extends StatelessWidget {
                   'J',
                 ].map((keyWord) {
                   return GridTile(
-                    child: BankButton(keyWord),
+                    child: SelectBankBankButton(keyWord),
                   );
                 }).toList(),
               ),

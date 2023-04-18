@@ -1,14 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
-class MainDisplay extends StatefulWidget {
-  const MainDisplay({Key? key}) : super(key: key);
-  @override
-  DisplayController createState() => DisplayController();
-}
+// Project imports:
 
-class DisplayController extends State<MainDisplay> {
-  final String _mainDisplayText = 'Select the PAD you want to edit.';
+class EditMainDisplayView extends StatelessWidget {
+  const EditMainDisplayView({Key? key}) : super(key: key);
+
+  final String _mainDisplayText = 'Enter the sapmle information.';
 
   @override
   Widget build(BuildContext context) {

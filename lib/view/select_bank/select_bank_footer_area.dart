@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 // Project imports:
 
-class SelectBankFooterViewModel extends StatelessWidget {
-  const SelectBankFooterViewModel({Key? key}) : super(key: key);
+class SelectBankFooterArea extends StatelessWidget {
+  const SelectBankFooterArea({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(

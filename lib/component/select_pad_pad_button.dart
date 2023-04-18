@@ -2,10 +2,12 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:simple_sample_manager/view/select_bank/select_bank_page.dart';
+import 'package:simple_sample_manager/view/edit/edit_page.dart';
 
-class EditButton extends StatelessWidget {
-  const EditButton({
+class SelectPadPadButton extends StatelessWidget {
+  final String _keyWord;
+  const SelectPadPadButton(
+    this._keyWord, {
     Key? key,
   }) : super(key: key);
 
@@ -21,15 +23,16 @@ class EditButton extends StatelessWidget {
         fixedSize: Size.fromHeight(20),
       ),
       onPressed: () {
-        //ボタンが押されたら「SelectBankPage」へ遷移する
+        // サンプルテキスト編集画面へ遷移する
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const SelectBankPage()),
+          MaterialPageRoute(builder: (context) => const EditPage()),
         );
+        // 「_keyword」の数値と対応するDBの情報を編集するように値を保持する
       },
-      child: const Text(
-        'E D I T',
-        style: TextStyle(fontSize: 20.0),
+      child: Text(
+        _keyWord,
+        style: const TextStyle(fontSize: 20.0),
       ),
     );
   }

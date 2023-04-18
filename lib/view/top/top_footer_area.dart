@@ -12,11 +12,11 @@ class FooterArea extends StatelessWidget {
       padding: const EdgeInsets.only(right: 40, left: 40),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
+        children: const [
           MenuButton(),
-          const Text(
+          Text(
             'SD Card : 0 0 0 1',
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 20,
               color: Color(0xff00C2FF),
             ),
